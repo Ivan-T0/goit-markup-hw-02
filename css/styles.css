@@ -1,0 +1,263 @@
+:root{
+    --raleway:font-family: 'Raleway';
+
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+body{
+
+ font-family: 'Roboto',
+ sans-serif;
+
+}
+
+.new-logo{
+    font-family: var(--raleway)  
+    sans-serif;
+    font-size: 18px; 
+    line-height: 24px;
+    line-height: 1.14;
+    color: #2E2F42;  
+    text-decoration: none;
+}
+.logo{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #4D5AE5;
+    letter-spacing: 0.03em;
+}
+.nav {
+}
+
+.header-list{
+   
+}
+.header-link{
+    font-size:16px;
+    line-height: 24px; 
+    line-height: 1.28;
+    color: #2E2F42;
+    font-weight: 500;
+}
+
+
+.address{
+   
+}
+.adress-link{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        line-height: 1.28;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+
+
+
+
+
+
+/* --------------Hero------------------------ */
+
+
+
+
+
+
+
+.hero{
+   background-color: #2E2F42;
+}
+.hero-text{
+    font-size : 56px;
+    line-height: 60px; 
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: white;
+}
+.hero-button{
+    background-color:#4D5AE5; 
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer; 
+}
+
+
+
+/* -----------------About-section--------------------- */
+
+
+
+.about-section{
+        font-size: 20px;
+        line-height: 24px;
+        line-height: 1.2;
+        color: #2E2F42;
+        
+}
+.hide{
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.about-list {}
+
+
+.about-list-item {}
+
+.about-list-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height:1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.about-list-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/* -------work-section-------------- */
+.work-section {}
+
+.work-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.work-list {}
+
+.work-list-item {}
+
+.work-list-photo {}
+
+/* ----------------------our-team-------------------- */
+
+
+
+
+
+
+.our-team{
+    background-color:#F4F4FD;
+}
+.team-title {
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.team-list {}
+
+.team-list-item {}
+
+.team-photo {}
+
+.team-name {}
+
+.team-list-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+
+
+
+
+/* --------------------------FOOTER--------------------- */
+
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo{
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        color: #F4F4FD;
+}
+.footer-text{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: white;
+}
+
+
+/* ----------------------PORTFOLIO----------------------------------
+ */
+
+ .portfolio-title {}
+
+ .porfolio-btn-list {}
+
+ .portfolio-btn-item {}
+
+ .portfolio-btn {
+    background: #F4F4FD;
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #4D5AE5;
+            cursor: pointer;
+ }
+ .portfolio-btn:hover,
+ .portfolio-btn:focus{
+    background: #404BBF;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+ }
+
+ .portfolio-cards-list {}
+
+ .cards-item {}
+
+ .cards-photo {}
+
+ .cards-title {
+    
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+ }
+
+ .cards-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+ }
