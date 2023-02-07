@@ -50,6 +50,7 @@ body{
        
 }
 .nav {
+    
 }
 
 .header-list{
@@ -62,14 +63,13 @@ body{
     font-weight: 500;
     font-size:16px;
     line-height: 1.28;
+    letter-spacing: 0.02em;
     color: var(--c-black)
 
 }
 .header-link:hover ,
 .header-link:focus{
-    border-bottom-width: 2px;
-    border-bottom-style: dashed;
-    border-bottom-color: var(--c-blue);
+   color: var(--c-blue);
     
 }
 
@@ -88,9 +88,7 @@ body{
 
 .adress-link:hover,
 .adress-link:focus{
-    border-bottom-width: 2px;
-        border-bottom-style: dashed;
-        border-bottom-color: var(--c-blue);
+    color: var(--c-blue);
 
 }
 
@@ -119,6 +117,7 @@ body{
 .hero-button{
     font-family: 'Roboto';
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
@@ -258,6 +257,7 @@ body{
 /* ----------------------PORTFOLIO----------------------------------
  */
 
+ 
  .portfolio-title {}
 
  .porfolio-btn-list {}
